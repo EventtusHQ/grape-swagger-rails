@@ -61,6 +61,12 @@ You can set the app name, default is "Swagger".
 GrapeSwaggerRails.options.app_name = 'Swagger'
 ```
 
+You can hide the header form (shown by default).
+
+``` ruby
+GrapeSwaggerRails.options.hide_api_selector = true
+```
+
 You can specify additional headers to add to each request:
 
 ```ruby
